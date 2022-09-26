@@ -1,0 +1,24 @@
+
+
+#myDiv1 {
+  background-image: url(https://cse.ucsd.edu/sites/cse.ucsd.edu/files/Diversity/content5.jpg), url(https://www.publicdomainpictures.net/pictures/70000/nahled/natural-green-background.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  width: 700px;
+  height: 1100px;
+  border: solid black;
+}
+
+
+
+#myDiv2 { background:url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Beautiful_Natural_Clip.gif");
+width: 600px;
+height: 500px;
+border: 2px solid #ff0000; padding: 5px;
+}
+
+#myDiv3 { background:url("https://upload.wikimedia.org/wikipedia/commons/e/e1/Reproductive_Organs_in_flowers.gif?20190414191352");
+width: 580px;
+height: 250px;
+border: 5px dashed #ff0000 
+}
