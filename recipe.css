@@ -1,54 +1,56 @@
-
-
-h1 { 
-    color: blue;
-    }
-h1 { border: 2px solid #ff0000;
-
-          background-color: #00FFFF;
-
-          padding-left: 5px;
-
-         padding-bottom: 10px;
-
-         padding-top: 10px;
-
+.center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid #FF00FF;
+  padding: 10px;
 }
 
-
-
-
-p1 {
-  font-family: "Times New Roman", Times, serif;
+div#page {
+  border:1px solid purple;
+  width:755px;
+  margin:0 auto;
+  padding:5px;
+  text-align:left;
+}
+div {
+  text-align:center;
 }
 
-#myDivImg { background:url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Gulabjamun_sweets.jpg");
-width: 400px;
-height: 250px;
-border: 5px dashed #ff0000
+div#header {
+  border:2px solid red;
+  width:750px;
+  height:60px;
 }
 
-.gradient {
-  height: 100px;
-  background-color: red;
-  background-image:
-    linear-gradient(
-      to right, 
-      red, 
-      #f06d06, 
-      rgb(255, 255, 0), 
-      green
-    );
+div#menu {
+  border:2px solid green;
+  width:200px;
+  float:left;
+  margin:10px 0 10px 5px;
+  height:650px;
 }
 
+div#content {
+  border:2px solid blue;
+  width:500px;
+  margin:10px 0 10px 235px;
+  min-height:500px;
+  _height:500px
+}
+
+div#footer {
+  border:2px solid red;
+  width:750px;
+  height:150px;
+}
+
+body { background-color: #ffe6e6;
+     font-family: Verdana, Arial, sans-serif; }
 
 p {
-  margin: 25px 50px 75px;
-}
-h2 {
-  text-transform: uppercase;
+    font-weight: bold;
 }
 
-li {
-  text-transform: lowercase;
-}
+a:visited {
+    color: forestgreen;
+    text-decoration-color: hotpink;
